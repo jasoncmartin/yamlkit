@@ -6,7 +6,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "yaml.h"
+#import "libyaml.h"
 
 @interface YKParser : NSObject {
 	BOOL readyToParse;

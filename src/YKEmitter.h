@@ -6,7 +6,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "yaml.h"
+#import "libyaml.h"
 
 @interface YKEmitter : NSObject {
     yaml_emitter_t emitter;
