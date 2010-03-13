@@ -423,7 +423,8 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = YAMLKit;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -443,7 +444,8 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = YAMLKit;
 				SDKROOT = macosx10.6;
 				WRAPPER_EXTENSION = framework;

@@ -1,7 +1,7 @@
 YAMLKit
 =======
 
-YAMLKit is an Objective-C library wrapping the [LibYAML](http://pyyaml.org/wiki/LibYAML) library.
+**YAMLKit** is an Objective-C library wrapping the [LibYAML](http://pyyaml.org/wiki/LibYAML) library.
 
 It is written by Patrick Thomson and licensed under the MIT License.
 
